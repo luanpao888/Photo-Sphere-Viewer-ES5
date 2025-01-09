@@ -1,6 +1,6 @@
 {
   "name": "@photo-sphere-viewer/cubemap-tiles-adapter",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "description": "Photo Sphere Viewer adapter to display tiled cubemaps.",
   "homepage": "https://photo-sphere-viewer.js.org/guide/adapters/cubemap-tiles.html",
   "license": "MIT",

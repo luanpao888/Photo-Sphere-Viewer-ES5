@@ -1,6 +1,6 @@
 {
   "name": "@photo-sphere-viewer/equirectangular-video-adapter",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "description": "Photo Sphere Viewer adapter to display equirectangular videos.",
   "homepage": "https://photo-sphere-viewer.js.org/guide/adapters/equirectangular-video.html",
   "license": "MIT",

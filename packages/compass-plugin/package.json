@@ -1,6 +1,6 @@
 {
   "name": "@photo-sphere-viewer/compass-plugin",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "description": "Photo Sphere Viewer plugin to add a compass to represent which portion of the sphere is currently visible.",
   "homepage": "https://photo-sphere-viewer.js.org/plugins/compass.html",
   "license": "MIT",

@@ -1,6 +1,6 @@
 {
   "name": "@photo-sphere-viewer/gallery-plugin",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Photo Sphere Viewer plugin to add a gallery of multiple panoramas.",
   "homepage": "https://photo-sphere-viewer.js.org/plugins/gallery.html",
   "license": "MIT",

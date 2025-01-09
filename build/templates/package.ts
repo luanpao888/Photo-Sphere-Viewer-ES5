@@ -6,7 +6,8 @@ sortOrder.splice(sortOrder.indexOf('style') + 1, 0, 'sass');
 export const packageJson = (pkg: any) => {
     const content = {
         ...pkg,
-        main: 'index.cjs',
+        main: 'index.js',
+        // main: 'index.cjs',
         module: 'index.module.js',
         types: 'index.d.ts',
         exports: {

@@ -48,10 +48,11 @@ ${
         }
 
         return {
-            entryPoints: [pkg.main],
+            entry: [pkg.main],
             outDir: 'dist',
             clean: true,
-            format: dev ? ['esm'] : ['esm', 'cjs'],
+            // format: dev ? ['esm'] : ['esm'],
+            format: dev ? ['esm'] : ['esm', 'iife'],
             outExtension: ({ format }) => ({
                 js: { cjs: '.cjs', esm: '.module.js', iife: '.js' }[format],
             }),

@@ -1,6 +1,6 @@
 {
   "name": "@photo-sphere-viewer/parent",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "private": true,
   "license": "MIT",
   "packageManager": "yarn@1.22.22",
@@ -27,7 +27,8 @@
     "e2e:open": "cypress open --e2e --browser=electron",
     "e2e:run": "cypress run --e2e --browser=electron",
     "build-doc": "node ./build/generate-typedoc-readme.mjs && typedoc --out public/api",
-    "watch": "node ./build/liveserver.mjs"
+    "watch": "node ./build/liveserver.mjs",
+    "clean": "rimraf .turbo cypress/screenshots cypress/snapshots/diff dist docs/.vitepress/.temp docs/.vitepress/cache node_modules public reports yarn-error.log packages/*/dist packages/*/.tmp packages/*/.turbo"
   },
   "devDependencies": {
     "@cypress/code-coverage": "^3.13.6",
@@ -44,11 +45,13 @@
     "cypress-visual-regression": "^5.2.2",
     "esbuild-sass-plugin": "^3.3.1",
     "eslint": "^9.17.0",
+    "lerna": "^8.1.9",
     "mocha": "^11.0.1",
     "mocha-junit-reporter": "^2.2.1",
     "nyc": "^17.1.0",
     "postcss": "^8.4.49",
     "queue": "^7.0.0",
+    "rimraf": "^3.0.2",
     "scss-bundle": "^3.1.2",
     "selfsigned": "^2.4.1",
     "sort-package-json": "^2.12.0",

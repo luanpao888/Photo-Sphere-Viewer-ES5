@@ -1,6 +1,6 @@
 {
   "name": "@photo-sphere-viewer/virtual-tour-plugin",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Photo Sphere Viewer plugin to create virtual tours by linking multiple panoramas.",
   "homepage": "https://photo-sphere-viewer.js.org/plugins/virtual-tour.html",
   "license": "MIT",

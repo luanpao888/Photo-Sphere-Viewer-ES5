@@ -77,6 +77,12 @@
       ],
       "cache": false
     },
+    "version-patch":{
+      "dependsOn": [
+        "@photo-sphere-viewer/core#version:patch"
+      ],
+      "cache": false
+    },
     "publish-dist": {
       "dependsOn": [
         "^publish-dist"

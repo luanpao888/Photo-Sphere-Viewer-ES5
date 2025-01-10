@@ -1,6 +1,6 @@
 {
   "name": "@photo-sphere-viewer/core",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "A JavaScript library to display 360° panoramas",
   "homepage": "https://photo-sphere-viewer.js.org",
   "license": "MIT",
@@ -18,7 +18,7 @@
     "version:patch": "npm version patch",
     "version:minor": "npm version minor",
     "version:major": "npm version major",
-    "publish-dist": "npm run version:patch && cd dist && npm publish --tag=$NPM_TAG --access=public",
+    "publish-dist": "cd dist && npm publish --tag=$NPM_TAG --access=public",
     "npm-link": "cd dist && npm link"
   },
   "psv": {

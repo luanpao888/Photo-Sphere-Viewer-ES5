@@ -52,7 +52,7 @@ ${
             outDir: 'dist',
             clean: true,
             // format: dev ? ['esm'] : ['esm'],
-            format: dev ? ['esm'] : ['esm', 'iife'],
+            format: dev ? ['esm'] : [ 'esm','iife'],
             outExtension: ({ format }) => ({
                 js: { cjs: '.cjs', esm: '.module.js', iife: '.js' }[format],
             }),
@@ -60,7 +60,7 @@ ${
             sourcemap: true,
             external: ['three'],
             noExternal: [/three\/examples\/.*/],
-            target: 'es2021',
+            target: 'es5',
             define: {
                 PKG_VERSION: `'${pkg.version}'`,
             },
